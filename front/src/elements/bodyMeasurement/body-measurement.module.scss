@@ -1,0 +1,51 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.wrapper {
+  width: 100%;
+  min-height: 70px;
+  background-color: $c-white;
+  font-family: $ff-secondary;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 10px;
+  gap: 8px;
+
+  @media (max-width: $bp-phone) {
+    min-height: fit-content;
+  }
+}
+
+.valuesWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.name {
+  color: $c-grey-navigation;
+  font-weight: $fw-bold;
+  font-size: $fs-small;
+
+  @media (max-width: $bp-tablet) {
+    font-size: smaller;
+  }
+}
+
+.value {
+  color: $c-black-text;
+  font-size: $fs-base;
+
+  @media (max-width: $bp-tablet) {
+    font-size: smaller;
+  }
+}
+
+.BarChartIcon {
+  color: $c-yellow-heavy;
+  font-size: 34px !important;
+}

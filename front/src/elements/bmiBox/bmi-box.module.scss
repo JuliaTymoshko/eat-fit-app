@@ -1,0 +1,97 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.bmiBox {
+  min-width: 240px;
+  background-color: $c-grey-navigation;
+  border-radius: 12px;
+  font-family: $ff-secondary;
+  padding: 20px;
+  min-height: 180px;
+  cursor: default;
+
+  ::selection {
+    background-color: transparent;
+  }
+
+  @media (max-width: $bp-tablet) {
+    min-height: fit-content;
+    padding: 10px 20px;
+  }
+
+  @media (max-width: $bp-phone) {
+    width: 100%;
+  }
+}
+
+.title {
+  font-size: $fs-base;
+  margin-bottom: 20px;
+
+  @media (max-width: $bp-tablet) {
+    margin-bottom: 15px;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  @media (max-width: $bp-tablet) {
+    margin-bottom: 15px;
+  }
+}
+
+.value {
+  font-size: $fs-h3;
+}
+
+.status {
+  min-width: fit-content;
+  display: flex;
+  align-items: center;
+  font-size: $fs-small;
+  background-color: $c-green-light;
+  color: $c-black-text;
+  padding: 6px 10px;
+  justify-content: center;
+  border-radius: 8px;
+  line-height: 1;
+}
+
+.statusRed {
+  background-color: $c-red-light;
+}
+
+.barWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @media (max-width: $bp-tablet) {
+    gap: 5px;
+  }
+}
+
+.bar {
+  width: 100%;
+  min-height: 14px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    #b5d4f1 0%,
+    #81e6db 37.77%,
+    #e8d284 70.4%,
+    #e2798e 100%
+  );
+}
+
+.barValues {
+  font-size: $fs-small;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}

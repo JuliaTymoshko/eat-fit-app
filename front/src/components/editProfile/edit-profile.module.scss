@@ -1,0 +1,24 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.divider {
+  margin-bottom: 30px !important;
+  font-family: $ff-secondary;
+}
+
+.reqFieldsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  margin-bottom: 30px;
+
+  @media (max-width: $bp-phone) {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 0;
+  }
+}
+
+.field {
+  min-height: 80px;
+}

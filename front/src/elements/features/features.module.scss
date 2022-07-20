@@ -1,0 +1,75 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.wrapper {
+  background-color: $c-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  font-family: $ff-secondary;
+  box-shadow: $sh-base;
+  z-index: 100;
+
+  @media (max-width: $bp-tablet) {
+    padding: 20px 25px;
+  }
+
+  @media (max-width: $bp-phone) {
+    padding: 15px 15px;
+    gap: 10px;
+  }
+}
+
+.title {
+  color: $c-black-text;
+  width: 280px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: $fs-h4;
+
+  @media (max-width: $bp-tablet) {
+    width: 160px;
+    font-size: $fs-base;
+  }
+
+  @media (max-width: $bp-phone) {
+    width: 130px;
+    font-size: $fs-base;
+  }
+}
+
+.available {
+  color: $c-grey-navigation;
+  color: $c-grey-navigation;
+  border-radius: 8px;
+  padding: 8px;
+  color: $c-black-text;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: $fs-base;
+  text-align: center;
+
+  @media (max-width: $bp-tablet) {
+    width: 90px;
+  }
+
+  @media (max-width: $bp-phone) {
+    font-size: small;
+    width: 70px;
+    padding: 4px 3px;
+  }
+}
+
+.availableTrue {
+  background-color: $c-green-light;
+}
+
+.availableFalse {
+  background-color: $c-yellow;
+}

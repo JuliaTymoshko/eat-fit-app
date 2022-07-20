@@ -1,0 +1,63 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.mainLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.parallaxLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 500px;
+
+  @media (max-width: $bp-desktop) {
+    padding-right: 0;
+  }
+}
+
+.featuresWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.title {
+  font-size: $fs-h1;
+  text-align: center;
+
+  @media (max-width: $bp-tablet) {
+    max-width: 200px;
+    line-height: 40px;
+  }
+}
+
+.layer1 {
+  background-color: $c-blue-light;
+}
+
+.layer2 {
+  background-color: $c-beige;
+}
+
+.layerBottom {
+  @media (max-width: $bp-tablet) {
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+}
+
+.broccoli {
+  opacity: 0.6;
+}

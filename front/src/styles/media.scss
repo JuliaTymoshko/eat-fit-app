@@ -1,0 +1,14 @@
+$bp-large: 1920px;
+$bp-screen: 1400px;
+$bp-desktop: 1024px;
+// 1025px — 1200px: Desktops, large screens.
+$bp-tablet: 768px;
+$bp-phone: 480px;
+$bp-small: 320px;
+
+// ! Media example
+// @media (max-width: $bp-tablet) {
+//   flex-direction: column;
+// }
+
+// ! @import 'styles/media.scss';

@@ -1,0 +1,42 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.wrapper {
+  position: relative;
+}
+
+.reqFieldsWrapper {
+  display: grid;
+  grid-row: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 20px;
+  margin-bottom: 30px;
+
+  @media (max-width: $bp-phone) {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 0;
+  }
+}
+
+.divider {
+  margin-bottom: 30px !important;
+  font-family: $ff-secondary;
+}
+
+.unreqFieldsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 20px;
+  margin-bottom: 30px;
+
+  @media (max-width: $bp-phone) {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 0;
+  }
+}
+
+.field {
+  min-height: 80px;
+}

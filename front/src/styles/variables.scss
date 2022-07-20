@@ -1,0 +1,41 @@
+// Usage @import 'styles/variables.scss';
+
+// Colors
+$c-white: #ffffff;
+$c-black: #000000;
+$c-black-text: #333333;
+$c-grey: #9d9d9d;
+$c-grey-navigation: #707070;
+$c-red: #ca6b6e;
+$c-red-light: #ffabab;
+$c-yellow: #f8debd;
+$c-yellow-heavy: #d08726;
+$c-yellow-bg: #fffcf8;
+$c-green-bright: #31d6d6;
+$c-green-light: #d0fbff;
+$c-beige: #e8e7e7;
+$c-blue-light: #e3eeff;
+
+// FontSize
+$fs-h1: 28px; // heading - health overview
+$fs-h2: 22px; // BMI calc
+$fs-h3: 20px; // water tracker, upcoming stuff
+$fs-h4: 18px;
+$fs-base: 16px;
+$fs-small: 14px;
+
+// Fonts variables
+$ff-main: 'Poppins', sans-serif;
+$ff-secondary: 'Mulish', sans-serif;
+
+// FontWeight
+$fw-normal: 400;
+$fw-bold: 600;
+
+// Transitions
+$t-base: 0.7s;
+$t-secondary: 0.2s;
+
+// Shadows
+$sh-base: 0px 1px 15px -5px rgba(213, 213, 213, 0.55);
+$sh-drawer: 0px 1px 15px -5px rgba(126, 126, 126, 0.55);

@@ -1,0 +1,39 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.wrapper {
+  font-family: $ff-secondary;
+  min-width: 170px;
+  height: 80px;
+  background-color: $c-yellow;
+  color: $c-black-text;
+  border-radius: 12px;
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  @media (max-width: $bp-phone) {
+    padding: 15px 10px;
+    min-width: 140px;
+    height: fit-content;
+    font-size: smaller;
+  }
+}
+
+.wrapperBlue {
+  background-color: $c-green-light;
+}
+
+.scale {
+  max-width: 100px;
+}
+
+.rightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

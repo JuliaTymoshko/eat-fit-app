@@ -1,0 +1,38 @@
+// * This styles are linked in index.scss which is linked in app.jsx and working already.
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // border: 1px solid rgb(174, 174, 255);
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #fff8da;
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 233, 1) 0%,
+    rgba(255, 255, 255, 1) 49%,
+    #e3eeff 100%
+  );
+
+  font-family: $ff-main;
+  font-size: $fs-base;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

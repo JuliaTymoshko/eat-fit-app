@@ -1,0 +1,152 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.bmiBase {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: $t-base;
+  font-family: $ff-secondary;
+  background-color: $c-black-text;
+  z-index: 100;
+  cursor: default;
+  color: $c-white;
+  position: fixed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 40px;
+
+  ::selection {
+    background-color: transparent;
+  }
+
+  @media (max-width: $bp-desktop) {
+    max-width: 450px;
+  }
+
+  @media (max-width: $bp-tablet) {
+    max-width: 400px;
+  }
+
+  @media (max-width: $bp-phone) {
+    max-width: 300px;
+  }
+}
+
+.bmiVisible {
+  right: 0;
+  bottom: 0;
+  top: 0;
+
+  @media (max-width: $bp-desktop) {
+    right: -440px;
+  }
+
+  @media (max-width: $bp-tablet) {
+    right: -320px;
+  }
+
+  @media (max-width: $bp-phone) {
+    right: -300px;
+  }
+}
+
+.bmiHidden {
+  right: -490px;
+  bottom: 0;
+  top: 0;
+
+  @media (max-width: $bp-desktop) {
+    right: 0;
+  }
+
+  @media (max-width: $bp-tablet) {
+    right: -15px;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  @media (max-width: $bp-tablet) {
+    flex-direction: column-reverse;
+  }
+}
+
+.baseMeasurementsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (max-width: $bp-tablet) {
+    gap: 10px;
+  }
+}
+
+.title {
+  font-size: $fs-h2;
+  font-weight: $fw-normal;
+  margin-bottom: 30px;
+
+  @media (max-width: $bp-tablet) {
+    display: none;
+  }
+}
+
+.body {
+  max-width: 140px;
+  max-height: 350px;
+
+  @media (max-width: $bp-tablet) {
+    display: none;
+  }
+}
+
+.measurementsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (max-width: $bp-tablet) {
+    gap: 10px;
+  }
+}
+
+.buttonParent {
+  position: relative;
+}
+
+.divider {
+  position: relative;
+  outline: none;
+  border: none;
+  height: 1px;
+  border-radius: 1px;
+  margin: 40px 0;
+  background-color: $c-grey-navigation;
+
+  @media (max-width: $bp-tablet) {
+    margin: 20px 0;
+  }
+  @media (max-width: $bp-phone) {
+    margin: 15px 0;
+  }
+}
+
+.downWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  @media (max-width: $bp-tablet) {
+    display: block;
+  }
+}
+
+.downContentWrapper {
+  display: flex;
+  flex-direction: column;
+}

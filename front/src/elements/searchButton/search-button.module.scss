@@ -1,0 +1,14 @@
+@import 'styles/variables.scss';
+
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.icon {
+  color: $c-beige;
+  font-size: 40px !important;
+}

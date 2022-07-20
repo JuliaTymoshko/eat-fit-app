@@ -1,0 +1,38 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.wrapper {
+  font-size: $fs-h2;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0;
+  line-height: 60px;
+  color: $c-grey;
+  opacity: 0.5;
+  cursor: default;
+  gap: 30px;
+
+  &::selection {
+    background-color: transparent;
+  }
+
+  @media (max-width: $bp-tablet) {
+    padding: 50px 0;
+  }
+
+  @media (max-width: $bp-phone) {
+    flex-direction: column;
+    padding: 15px 0;
+    font-size: $fs-h3;
+    gap: 15px;
+    line-height: 40px;
+  }
+}
+
+.icon {
+  font-size: 70px !important;
+}

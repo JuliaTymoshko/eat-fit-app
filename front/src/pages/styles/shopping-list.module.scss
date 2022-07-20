@@ -1,0 +1,26 @@
+@import 'styles/variables.scss';
+
+.shoppingList {
+  width: 100%;
+}
+
+.itemsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: fit-content;
+  padding: 5px;
+}

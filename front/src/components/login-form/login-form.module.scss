@@ -1,0 +1,13 @@
+.fieldsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field {
+  min-height: 80px;
+}
+
+.button {
+  max-width: fit-content;
+}

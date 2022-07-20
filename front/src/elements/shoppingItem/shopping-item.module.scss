@@ -1,0 +1,32 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.wrapper {
+  margin-bottom: 20px;
+  background-color: $c-white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: $ff-secondary;
+  box-shadow: $sh-base;
+  z-index: 100;
+
+  @media (max-width: $bp-phone) {
+    padding: 10px 10px;
+    gap: 5px;
+  }
+}
+
+.description {
+  color: $c-black-text;
+  max-width: 450px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: $fs-base;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

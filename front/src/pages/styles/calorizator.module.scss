@@ -1,0 +1,29 @@
+@import 'styles/media.scss';
+
+.headerWrapper {
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 12px;
+
+  @media (max-width: $bp-phone) {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.field {
+  display: flex;
+  @media (max-width: $bp-phone) {
+    align-items: center;
+  }
+}
+
+.foundItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

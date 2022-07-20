@@ -1,0 +1,40 @@
+@import 'styles/media.scss';
+
+.container {
+  max-width: 700px;
+  margin: 40px 0 0 80px;
+  padding: 0 20px 20px 20px;
+  width: 100%;
+
+  @media (max-width: 1270px) {
+    max-width: 600px;
+  }
+
+  @media (max-width: 1170px) {
+    max-width: 500px;
+  }
+
+  @media (max-width: 1070px) {
+    max-width: 450px;
+  }
+
+  @media (max-width: $bp-desktop) {
+    max-width: 700px;
+  }
+
+  @media (max-width: $bp-phone) {
+    margin: 40px 0 0 60px;
+  }
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.styled {
+  position: absolute;
+}
+
+// import baseStyles from 'styles/base.module.scss';

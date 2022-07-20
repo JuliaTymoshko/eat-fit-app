@@ -1,0 +1,30 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.wrapper {
+  position: absolute;
+  left: -68px;
+  top: 12px;
+
+  @media (max-width: $bp-tablet) {
+    top: -7px;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background-color: $c-black-text;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon {
+  color: $c-white;
+  font-size: 30px;
+}

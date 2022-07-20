@@ -1,0 +1,109 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+// width 100% + min change
+
+.nutritionCard {
+  width: 100%;
+}
+
+.cardWrapper {
+  max-width: 640px;
+  background-color: $c-white;
+  box-shadow: $sh-base;
+  border-radius: 30px;
+  padding: 30px 45px;
+
+  @media (max-width: $bp-tablet) {
+    padding: 30px 30px;
+  }
+}
+
+.nutrientsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.upline {
+  margin-bottom: 70px;
+
+  @media (max-width: $bp-phone) {
+    margin-bottom: 50px;
+  }
+}
+
+.circle {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 70px;
+
+  @media (max-width: $bp-tablet) {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.circleWrapper {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background: linear-gradient(to left, $c-yellow, $c-green-bright);
+  display: grid;
+  place-items: center;
+  font-size: $fs-h3;
+
+  @media (max-width: $bp-phone) {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.circleBg {
+  background: $c-white;
+  border-radius: 50%;
+  padding: 70px;
+  @media (max-width: $bp-phone) {
+    padding: 40px;
+  }
+}
+
+.circleInnerContent {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: $c-black-text;
+}
+
+.circleFlash {
+  color: $c-red;
+}
+
+.nutrientTitle {
+  font-size: $fs-h3;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: $c-black-text;
+}
+
+.nutrientDescription {
+  margin-bottom: 30px;
+  color: $c-grey;
+  font-size: $fs-base;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.back {
+  cursor: pointer;
+  color: $c-grey;
+}
+
+.resultWrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

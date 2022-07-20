@@ -1,0 +1,40 @@
+{
+  "name": "eat-fit-app",
+  "version": "1.0.0",
+  "description": "frontend beetroot student work. The app to check calories, track water activity, create shopping list etc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --inspect index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "react",
+    "meterial",
+    "ui",
+    "mui",
+    "julia",
+    "tymoshko",
+    "beetroot",
+    "node",
+    "express",
+    "mongo",
+    "fit",
+    "healthy",
+    "app",
+    "calories"
+  ],
+  "author": "julia tymoshko tymoshko1997@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

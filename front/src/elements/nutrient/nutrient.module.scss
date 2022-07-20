@@ -1,0 +1,31 @@
+@import 'styles/variables.scss';
+@import 'styles/mixins.scss';
+
+// @import 'styles/media.scss';
+
+.nutrientWrapper {
+  display: flex;
+  gap: 20px;
+  // align-items: center;
+}
+
+.dataWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+.circle {
+  color: $c-red;
+}
+
+.title {
+  color: $c-grey;
+  font-size: $fs-small;
+}
+
+.value {
+  font-size: $fs-h4;
+  color: $c-black-text;
+}

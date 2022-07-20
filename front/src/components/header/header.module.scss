@@ -1,0 +1,29 @@
+@import 'styles/variables.scss';
+@import 'styles/media.scss';
+
+.header {
+  display: inline-block;
+  margin-bottom: 40px;
+
+  @media (max-width: $bp-phone) {
+    margin-bottom: 60px;
+  }
+}
+
+.title {
+  color: $c-black-text;
+  font-size: $fs-h1;
+  margin-bottom: 8px;
+  @media (max-width: $bp-phone) {
+    font-size: $fs-h2;
+  }
+}
+
+.subtitle {
+  color: $c-grey-navigation;
+  font-size: $fs-base;
+
+  @media (max-width: $bp-phone) {
+    font-size: smaller;
+  }
+}

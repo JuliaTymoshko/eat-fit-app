@@ -1,0 +1,9 @@
+@import 'styles/variables.scss';
+
+.upline {
+  background-color: $c-green-bright;
+  min-height: 9px;
+  max-width: 160px;
+  border-radius: 20px;
+  margin: 0 auto;
+}

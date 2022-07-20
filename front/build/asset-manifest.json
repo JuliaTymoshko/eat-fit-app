@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b93efc6.css",
+    "main.js": "/static/js/main.c3f68e9d.js",
+    "static/css/22.1f7a33e9.chunk.css": "/static/css/22.1f7a33e9.chunk.css",
+    "static/js/22.1c2696c2.chunk.js": "/static/js/22.1c2696c2.chunk.js",
+    "static/media/orange.png": "/static/media/orange.292eb597dd42c0463914.png",
+    "static/media/body.svg": "/static/media/body.f6371cf8330b15fa0feda2af7bb086c9.svg",
+    "static/media/broccoli.svg": "/static/media/broccoli.946152052dae0616653745969b99c107.svg",
+    "static/media/scroll.svg": "/static/media/scroll.3684df69f8c7860f4d9fef459ce96a5a.svg",
+    "static/media/tea.svg": "/static/media/tea.6105e7bad463892b07bdf57ea54b1a7f.svg",
+    "static/media/logo.svg": "/static/media/logo.23a1de4f91d0a12ae0f4999de71abbd6.svg",
+    "static/media/avocado.svg": "/static/media/avocado.ba69a919f0b860c62b65e6259e97a816.svg",
+    "static/media/peach.svg": "/static/media/peach.3ff1e935a4410680a110116e75eaed27.svg",
+    "static/media/coffee.svg": "/static/media/coffee.114dfef3375a944c29d92b6a642966e6.svg",
+    "static/media/apple.svg": "/static/media/apple.6a7ddbff261f26dbe070bb36dbf4f41d.svg",
+    "index.html": "/index.html",
+    "main.0b93efc6.css.map": "/static/css/main.0b93efc6.css.map",
+    "main.c3f68e9d.js.map": "/static/js/main.c3f68e9d.js.map",
+    "22.1f7a33e9.chunk.css.map": "/static/css/22.1f7a33e9.chunk.css.map",
+    "22.1c2696c2.chunk.js.map": "/static/js/22.1c2696c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b93efc6.css",
+    "static/js/main.c3f68e9d.js"
+  ]
+}
